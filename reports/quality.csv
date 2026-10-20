@@ -1,0 +1,9 @@
+exclusion_reason,records,pct_input
+retained,3242053,93.29042197543411
+nonpositive_or_missing_money,130483,3.754662286711713
+invalid_distance,90201,2.5955434265282316
+unknown_or_non_nyc_pickup,8296,0.23871828767395273
+invalid_duration,2051,0.059017744457482764
+duration_over_180_minutes,1317,0.03789681591931
+speed_over_100_mph,803,0.02310641092118901
+outside_pickup_month,22,0.0006330523540051784
