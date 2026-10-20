@@ -1,0 +1,7 @@
+// Import reports/cube.csv as a table named TripsCube.
+Recorded Trips = SUM(TripsCube[trips])
+Base Fare Revenue = SUM(TripsCube[fare_revenue])
+Passenger Charges = SUM(TripsCube[passenger_charges])
+Average Base Fare = DIVIDE([Base Fare Revenue], [Recorded Trips])
+Average Duration Minutes = DIVIDE(SUM(TripsCube[duration_minutes]), [Recorded Trips])
+Average Distance Miles = DIVIDE(SUM(TripsCube[distance_miles]), [Recorded Trips])
